@@ -1,0 +1,18 @@
+{
+  "name": "REST_API",
+  "version": "1.0.0",
+  "description": "- Representational State Transfer API - It is a design pattern for creating web services that are scalable, flexible, and maintainable. RESTful services are built on top of HTTP, the protocol used for transferring data on the web, and they use standard HTTP methods such as GET, POST, PUT, DELETE, etc. to perform operations on resources identified by URIs (Uniform Resource Identifiers).",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "sam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "validator": "^13.9.0"
+  }
+}
